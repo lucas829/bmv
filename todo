@@ -1,0 +1,10 @@
+* Área a cargo del tesorero para informar el estado contable de la logia, cápitas, cocheras, etc.
+* Agregar un editor WYSIWYG para los anuncios.
+* Resumen semanal de últimos trabajos
+* Área del hospitalario, tronco de beneficencia
+* Carpeta "Boletines"
+* Carpeta "Fotos"
+* Truncar el tamaño del nombre del archivo subido a 255 caracteres
+* Agregar sistema de puntuación (calificaciones) a los archivos.
+* Permitir leer los reportes anteriores de un archivo, que al ser aprobado quedaron como visible=0
+* Ordenar los resultados de la búsqueda en varias páginas

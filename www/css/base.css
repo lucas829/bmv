@@ -1,0 +1,348 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: 0;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	color: #7F0015;
+}
+input[type="button"],
+input[type="submit"] {
+	cursor: pointer;
+}
+h1 {
+	font-size: 2em;
+	margin-top: 10px;
+}
+h2 {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+h3 {
+	margin-bottom: 10px;
+}
+#logo {
+	text-align: center;
+	background-color: black;
+}
+#header {
+	background-color: black;
+}
+#wrapper {
+	margin-top: 20px;
+}
+.clear {
+	clear: both;
+}
+.little_font {
+	font-size: .7em;
+}
+.btn_link {
+	text-decoration: none;
+	color: black;
+}
+.formulario {
+	line-height: 2.5em;
+	margin: auto;
+	background-color: #FFFFFF;
+	padding: 20px 20px;
+	width: 600px;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+.archivo {
+	height: 45px;
+}
+.archivo, 
+.carpeta {
+	line-height: 2em;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 5px 30px;
+}
+.carpeta a {
+	text-decoration: none;
+	color: black;
+	font-size:1.5em;
+	display: block;
+}
+.carpeta a:hover {
+	color: #7F0015;
+}
+.nombre_carpeta {
+	float: left;
+	width: 80%;
+	padding-left: 35px;
+	background: url("../../img/carpeta.png") center left no-repeat;
+}
+.icono {
+	float: left;
+	width: 35px;
+	text-align: center;
+}
+.filename {
+	width: 50%;
+	float: left;
+}
+.archivo a,
+#right a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 1.2em;
+}
+.archivo a:hover {
+	font-weight: bold;
+}
+.fecha_upload {
+	float:left;
+}
+.acciones_archivos {
+	float:left;
+	margin-left: 30px;
+}
+#nav {
+	text-align: center;
+}
+#nav a {
+	text-decoration: none;
+	color: white;
+	background-color: gray;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 2px;
+}
+#nav a:hover {
+	background-color: black;
+}
+.nav_actual {
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 2px;
+}
+
+.opciones_lista {
+	font-size: 0.7em;
+	color:white;
+	background-color: gray;
+	border:1px solid black;
+}
+
+.detalle_fichero {
+	line-height: 2em;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 5px 50px;
+}
+.detalle_icono {
+	float: left;
+}
+.detalle_nombre {
+	font-size: 1.8em;
+}
+.detalle_extendido {
+	border-top: 1px solid gray;
+}
+.detalle_descargar {
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+.detalle_descargar a {
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+.detalle_datos {
+	width: 550px;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.fecha_upload,
+.total_archivos {
+        font-style: italic;
+}
+.error {
+	line-height: 1.2em !important;
+	color: red;
+	text-align: center;
+}
+.success {
+	line-height: 1.2em !important;
+	color: green;
+	text-align: center;
+}
+.tabla {
+        margin: 15px;
+        border: 1px solid black;
+        border-collapse: collapse;
+}
+.tabla a {
+	display: block;
+}
+.tabla th {
+        padding: 5px;
+        color: white;
+        background: black;
+}
+.tabla td {
+        border: 1px solid gray;
+        padding: 5px;
+}
+.tabla .bg_par {
+        background: #DDD;
+}
+.tabla .bg_impar {
+}
+.td_submit {
+        text-align: center;
+        margin-bottom:0;
+}
+.td_submit input[type='submit'] {
+        font-size: 0.7em;
+        color: white;
+        background-color: gray;
+        border: 1px solid black;
+}
+#buscar {
+	margin: 20px auto;
+	width: 600px;
+	padding: 5px 50px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.opciones_busqueda {
+	
+}
+.opcion_busqueda {
+	float: left;
+	margin: 0px 1%;
+}
+.cuadro_busqueda {
+	text-align: center;
+	margin: 20px;
+}
+.cuadro_busqueda input {
+	font-size: 1.5em;
+}
+.submit_acciones {
+	margin: 20px;
+	text-align:center;
+}
+#user {
+	text-align: left;
+	border: 1px solid gray;
+	border-radius: 5px;
+	line-height: 2.5em;
+	padding: 5px 50px;
+	margin: 20px auto;
+}
+#user fieldset {
+	padding: 0px 15px;
+}
+#left,
+#middle,
+#right {
+	float: left;
+	margin: 15px;
+	padding: 15px;
+	width:27%;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+#left {
+	line-height: 1.7em;
+}
+#favoritos table;
+#reciente table
+#anuncios table {
+	border-collapse: collapse;
+}
+#favoritos td,
+#reciente td,
+#anuncios td {
+	font-size: .75em;
+	padding: 0px 10px;
+}
+#favoritos tr:hover,
+#reciente tr:hover,
+#anuncios tr:hover {
+	background-color: #CCCCCC;
+}
+.reporte {
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px 10px;
+	background-color: #EEEEEE;
+	margin: 5px 60px;
+}
+.reporte_nombre {
+	font-size: 1.1em;
+	font-style: italic;
+}
+.reporte_descrip {
+	padding: 15px;
+}
+.reporte_acciones {
+	text-align: center;
+	margin: 15px;
+}
+.titulo {
+	font-size: 1em;
+}
+#middle {
+	line-height: 1.7em;
+}
+#middle a {
+	display: block;
+	text-decoration: none;
+}
+.urgente a,
+.fila_urgente a {
+	color: red;
+	font-weight: bolder;
+	padding-left: 25px;
+	background: url("../../img/urgente.png") center left no-repeat;
+}
+.importante a,
+.fila_importante a {
+	color: red;
+}
+.informativo a,
+.fila_informativo a {
+	color: black;
+}
+#ver_mas a {
+	font-weight: bold;
+}
+#anuncio_titulo {
+	font-size: 1.5em;
+	text-align: center;
+}
+#anuncio_visible_por,
+#anuncio_enviado_por {
+	font-size: .85em;
+	font-style: italic;
+	line-height: 1.5em;
+}
+#anuncio_cuerpo {
+	line-height: 1.2em;
+}
+#carpeta_opciones {
+	margin: 10px;
+}
