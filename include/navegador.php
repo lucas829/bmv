@@ -237,21 +237,30 @@ function insertar_icono($tipo=1) {
 			$imagen="ico_txt.png";
 			break;
 		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
 			$imagen="ico_imagen.png";
 			break;
-		case 8:
+		case 12:
+		case 13:
 			$imagen="ico_comprimido.png";
 			break;
-		case 9:
+		case 14:
 			$imagen="ico_cdr.png";
 			break;
-		case 10:
+		case 15:
+		case 16:
+		case 17:
 			$imagen="ico_odf.png";
 			break;
-		case 11:
+		case 18:
+		case 19:
+		case 20:
 			$imagen="ico_audio.png";
 			break;
-		case 12:
+		case 21:
 			$imagen="ico_word.png";
 			break;
 		default:
